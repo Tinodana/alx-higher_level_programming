@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
-if True:
-print('{}'.format("abcdefghijklmnopqrstuvwxyz"), end='')
+for letter in range(97, 123):
+    print('{}'.format(chr(letter), end='')
